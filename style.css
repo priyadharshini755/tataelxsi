@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Aladin&family=Bree+Serif&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Oregano:ital@0;1&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Russo+One&display=swap');
+
+
+/* :::DEFAULT code starts here::: */
+ * {
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+    text-wrap: pretty;
+    /*border: 1px solid red;   */
+} 
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    background-color: #f8f2f4;
+    font-family: "Roboto Condesend", sans-serif;
+    font-optical-sizing: auto;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 0rem;
+}
+
+::-webkit-scrollbar {
+    width: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    text-wrap: balance;
+}
+
+input,
+textarea,
+button {
+    font-family: inherit;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+:root {
+    --primarycolor: #ffffff;
+    --secondarycolor: #660600;
+    --darkcolor: #330300;
+    --lightcolor: #ff0f00;
+    --regularFont: 1.4rem;
+    --headingFont: 2rem;
+    --ffprimary: "Roboto Condensed", sans-serif;
+    --ffecondary: "Merienda", cursive;
+    --font1: "Noto Sans", sans-serif;
+}
+.align {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 3rem;
+}
+.componentspacing {
+    padding: 3rem 0;
+}
+.minipad {
+    padding: 1rem;
+} 
+
+.grid-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.grid-5 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.grid-6 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+
+}
+
+.dflex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dflex-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.dflex-col-start {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: left;
+}
+
+
+/* :::PARENT CONTAINER code starts here:::  */
+
+header {
+    width: 100%;
+    height: auto;
+}
+
+main {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    width: 100%;
+    height: auto;
+}
+/* STARTS HERE */
+li :hover{
+   color: blue !important;
+}
+.tatacontainer{
+    background-color: #414141;
+}
+h2{
+    font-family: var(--font1);
+    color: #f8f2f4;
+    padding-bottom: 1rem;
+}
+.tatacol2 a{
+    font-family: var(--font1);
+    color: #f8f2f4;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+li{
+    list-style-type: none;
+    padding-bottom: 0.8rem;
+}
+.tatacol1{
+    margin-left: 3.5rem;
+}
+.tatacol1 a{
+    padding-left: 3.5rem;
+    font-size: 1.2rem;
+    color: #f8f2f4;
+}
+.tatacol2{
+    margin-top: 3rem;
+    margin-left: 8rem;
+}
+
+.tataimg{
+    margin-top: 3rem;
+    width: 90%;
+}
+.tataimg1{
+    padding-top: 10rem;
+    width: 90%;
+}
+.icons i{
+    color: #000000;
+    font-size: 1.5rem;
+    padding:5px;
+    border-radius: 50%;
+    background-color: #f8f2f4;
+    padding-right: 0.5rem;
+    align-items: center;
+    margin-right: 1rem;
+}
+.icons{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 3.5rem;
+}
+.cont1{
+    display: flex;
+    justify-content: flex-start ;
+}
+.cont1 a{
+    font-family: var(--font1);
+    color: #f8f2f4;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0 1rem;
+    border-right: solid 2px #ffffff;
+}
+.cot a{
+    border: none;
+}
+.contacts{
+    padding-left: 5rem;
+    /* border-top: dotted 2px #f8f2f4; */
+    /* padding: 0 19rem 0 5rem; */
+}
+.line{
+    width: 20rem ;
+    height:0.001rem ;
+    /* border-color: #ffffff; */
+    /* background-color: #ffffff; */
+    border:0.01px dashed #ffffff;
+    padding: 0 75rem 0 0;
+    margin-left: 30rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.term1 i{
+    font-size: 1rem;
+    color: #ffffff;
+}
+.term1 li{
+    color: #f8f2f4;
+    font-family: var(--font1);
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding-right: 0.6rem;
+
+}
+.term1{
+    display: flex;
+    justify-content: flex-start;
+}
+.term1 a{
+    font-family: var(--font1);
+    color: #f8f2f4;
+    text-decoration: none;
+    font-size: 1.2rem;
+    /* padding: 0 0.5rem; */
+    /* border-right: solid 2px #ffffff; */
+}
+.terms{
+    margin-left: 3.5rem;
+    margin-top: 1rem;
+}
+/* Small devices (landscape phones, upto 576px and below) */
+@media(width <=576px) {
+
+    .grid-1,
+    .grid-2,
+    .grid-3,
+    .grid-4,
+    .grid-5,
+    .grid-6 {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .tata{
+        margin: 0;
+        padding: 0;
+        /* background-color: #ffffff; */
+    }
+    .tatacontainer{
+        margin: 0;
+        padding: 0
+    }
+    .tatata{
+        background-color: #ffffff;
+        margin: 0;
+        padding: 0;
+    }
+    .tatata a{
+        color: #000000;
+    }
+    .tatabody{
+        margin: 0;
+        padding: 0;
+    }
+    .tatacol1{
+        margin: 0;
+        padding: 0;
+    }
+    .tatacol2{
+        display: none;
+    }
+    .terms{
+        display: none;
+    }
+    .contacts{
+        display: none;
+    }
+    .line{
+        display: none;
+    }
+    .tataimg img{
+        /* padding-top: 1rem; */
+        width: 40%;
+        margin-left: 1rem;
+        padding: 0;
+    }
+    .tatacol1{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .tataimg1{
+        /* padding-top: 1rem; */
+        width: 40%;
+        margin-left: 1rem;
+        padding: 0;
+    }
+    .tatacol1{
+        /* margin-left: 1rem; */
+    }
+    .icons{
+        margin-top: 2rem;
+        margin-left: 1rem;
+    }
+    .icons i{
+        font-size: 1.2rem;
+        padding:5px;
+        border-radius: 50%;
+    }
+}
